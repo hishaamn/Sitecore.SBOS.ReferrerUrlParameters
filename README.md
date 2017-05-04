@@ -8,6 +8,8 @@ This is a module that captures Google's referrer URL parameters and personalized
 
 ### Installation Instructions
 
+1. [Download Sitecore Package v1.0](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters)
+
 ### Supported Products
 + Sitecore CMS 8.2 or later
 
