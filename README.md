@@ -3,8 +3,13 @@ This is a module that captures Google's referrer URL parameters and personalized
 
 ### Features
 
-+ Captures and personalized on Google AdWords Value Track's *Keyword* parameters 
-+ Captures and personalized on Google's UTM parameters
++ Captures and personalized on Google AdWords Value Track's **Keyword** parameters 
++ Captures and personalized on Google's UTM parameters namely below
+..* Utm_Source
+..* Utm_Medium
+..* Utm_Campaign
+..* Utm_Content
+..* Utm_Term
 
 ### Installation Instructions
 
