@@ -1,5 +1,5 @@
 # Sitecore.SBOS.ReferrerUrlParameters (v1.0)
-This is a module that captures Google's referrer URL parameters and personalized base on there values.
+This is a module that captures Google's referrer URL parameters and provides a Condition to personalized base on there values.
 
 ### Features
 
