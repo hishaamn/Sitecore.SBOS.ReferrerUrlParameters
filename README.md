@@ -33,7 +33,7 @@ This module is currently under development and in beta version. Please check bac
 2. Install using Sitecore's Package Installer
 
 ### Supports
-+ For support please leave a comment or email the author.
++ For support please email the author or [create an issue](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters/issues/new).
 + Tested on Sitecore CMS 8.2 or later
 
 THIS MODULE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT SUPPORT, WARRANTIES OR CONDITIONS OF ANY KIND.
