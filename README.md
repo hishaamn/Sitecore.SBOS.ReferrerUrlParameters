@@ -12,16 +12,19 @@ personalize based on there values.
 
 **Referral URL parameters** 
    
-   where the utm_source contains value and the utm_medium contains value and utm_campaign contains value  
+...where the Google AdWords Value Track keywords **contains** **specific value**
+
+...where the specific **URL parameter** **contains** **specific value**
+
+...where the utm_content **contains** **specific value**
+
+...where the utm_source **contains** **specific value** and the utm_medium **contains** **specific value** and utm_campaign **contains** **specific value**
+
+...where the utm_term **contains** **specific value**
+
+...where the utm_source **contains** **specific value** and the utm_medium **contains** **specific value** and utm_campaign **contains** **specific value** then trigger **specified campaign**
    
-   where the utm_term contains value
-
-   where the utm_content contains value
-
-   where the URL parameter contains value
-
-   where the Google Adwords Value Track keywords contains value
-
+   
 ## Availability
 
 This module is currently under development and in beta version. Please check back for latest updates.
