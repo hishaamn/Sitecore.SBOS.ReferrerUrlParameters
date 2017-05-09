@@ -1,5 +1,9 @@
 # Sitecore.SBOS.ReferrerUrlParameters (v1.0)
-This is a module that captures Google's referrer URL parameters and provides a Condition to personalized base on there values.
+This is a module that captures Google's referrer URL parameters and provides a custom Condition that you can use to personalized base on there values.
+
+### Scenario
+
+A Google AdWords campaign is set on a landing page on http://www.connecttheexperience.com/thebook and Google has generated this Url parameter when the ads shows up on the search page http://www.connecttheexperience.com/thebook?utm_source=newsletter&utm_medium=email&utm_campaign=AprilCampaign&utm_term=paidkeyword&utm_content=examplecontent. This module parses and captures the parameters and saves it on the current Interaction and provides custom Conditions that you can use to personalize based on there values.
 
 ### Features
 
