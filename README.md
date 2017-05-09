@@ -22,17 +22,17 @@ personalize based on there values.
 
    where the Google Adwords Value Track keywords contains value
 
-### Availability
+## Availability
 
 This module is currently under development and in beta version. Please check back for latest updates.
 
 
-### Installation Instructions
+## Installation Instructions
 
 1. [Download Sitecore Package v1.0](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters)
 2. Install using Sitecore's Package Installer
 
-### Supports
+## Supports
 + For support please email the author or [create an issue](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters/issues/new).
 + Tested on Sitecore CMS 8.2 or later
 
