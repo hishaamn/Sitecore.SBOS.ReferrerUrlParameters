@@ -6,8 +6,8 @@ using System;
 
 namespace Sitecore.Analytics.Rules.Conditions
 {
-  public class HasUTMSourceMediumCampaignTriggerCampaign<T> : StringOperatorCondition<T> where T : RuleContext
-   {
+    public class HasUTMSourceMediumCampaignTriggerCampaign<T> : StringOperatorCondition<T> where T : RuleContext
+    {
         public string UtmSource { get; set; }
         public string UtmMedium { get; set; }
         public string UtmCampaign { get; set; }
@@ -22,17 +22,13 @@ namespace Sitecore.Analytics.Rules.Conditions
             Assert.IsNotNullOrEmpty(this.UtmCampaign, "The UtmCampaign is not initialized");
             Assert.IsNotNullOrEmpty(this.UtmMedium, "The UtmMedium is not initialized");
             Assert.IsNotNullOrEmpty(this.UtmSource, "The UtmSource is not initialized");
-            
+
             //get customValues from Current.Iteration
             var customValues = Tracker.Current.Interaction.CustomValues;
             //decalre variable objects
             object utmSourceObj, utmMediumObj, utmCampaignObj;
             //check if campaignid is empty or null
-            if (!string.IsNullOrEmpty(CampaignId))
-            {
-                return false;
-            }
-        
+
             if (CampaignId == null)
             {
                 return false;
@@ -65,15 +61,15 @@ namespace Sitecore.Analytics.Rules.Conditions
             {
                 throw new InvalidOperationException("CustomValues does not contain specified key");
             }
-           
-            if (utmMediumObj == null)
+
+            if (utmCampaignObj == null)
             {
                 return false;
             }
-            string utmCampaignmValue = utmCampaignObj.ToString();
+            string utmCampaignValue = utmCampaignObj.ToString();
 
             //does campaignvalue, mediumvalue, sourcevalue, and campaign_id compares?
-            return this.Compare(utmCampaignmValue, this.UtmCampaign ?? String.Empty) && this.Compare(utmMediumValue, this.UtmMedium ?? string.Empty) && this.Compare(utmSourceValue, this.UtmSource ?? String.Empty) && this.Compare(CampaignValue.Name.ToString(), CampaignId.ToString() ?? String.Empty);
+            return this.Compare(utmCampaignValue, this.UtmCampaign ?? String.Empty) && this.Compare(utmMediumValue, this.UtmMedium ?? string.Empty) && this.Compare(utmSourceValue, this.UtmSource ?? String.Empty) && this.Compare(CampaignValue.ID.ToString(), CampaignId.ToString() ?? String.Empty);
         }
     }
 }
