@@ -1,91 +1,71 @@
-# Installed SBOS Referrer URL Parameter v0.3
-This is a module that captures Google's referrer URL parameters and provides a 
-custom Condition that you can use to personalized base on there values.
+# Package Installation Instructions
 
-
-For example, a Google AdWords campaign is set on a landing page on http://www.connecttheexperience.com/thebook and 
-Google has generated this Url parameter when the ads shows up on the search page 
-http://www.connecttheexperience.com/thebook?utm_source=newsletter&utm_medium=email&utm_campaign=AprilCampaign&utm_term=paidkeyword&utm_content=examplecontent. 
-This module parses and captures the parameters and saves it on the 
-current Interaction and provides custom Conditions that you can use to 
-personalize based on there values.
-
-**Referral URL parameters** 
-   
-...where the Google AdWords Value Track keywords **contains** **specific value**
-
-...where the specific **URL parameter** **contains** **specific value**
-
-...where the utm_content **contains** **specific value**
-
-...where the utm_source **contains** **specific value** and the utm_medium **contains** **specific value** and utm_campaign **contains** **specific value**
-
-...where the utm_term **contains** **specific value**
-
-...where the utm_source **contains** **specific value** and the utm_medium **contains** **specific value** and utm_campaign **contains** **specific value** then trigger **specified campaign**
-
-## Availability
-This module is currently under development and in beta version. Please check back for latest updates.
-
-## Installation Instructions
 1. [Download Sitecore Package v0.3](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters)
-2. Install using Sitecore's Package Installer
 
-## Getting Started
-Below are the steps on how to install and this module.
+2. Login in Sitecore Client.
 
-1. Login in Sitecore Client.
-![image]()
+![login1](https://cloud.githubusercontent.com/assets/2329372/26513445/542bffa8-4220-11e7-849f-e3c499dd596d.png)
 
-2. On Sitecore Experience Platform click **Desktop**.
-![image]()
+3. On Sitecore Experience Platform click **Desktop**.
 
-3. On desktop click **Sitecore logo**.
-![image]()
+![desktop2](https://cloud.githubusercontent.com/assets/2329372/26513447/543a374e-4220-11e7-9db8-04ac0bd472ae.png)
+
+4. On desktop click **Sitecore logo**.
+
+![logo3](https://cloud.githubusercontent.com/assets/2329372/26513443/542845b6-4220-11e7-9a93-d5560af78893.png)
 
 5. On sitecore logo click **developer tools**.
-![image]()
+
+![devtools4](https://cloud.githubusercontent.com/assets/2329372/26513444/5428a8b2-4220-11e7-8d4f-eea97afc3fc3.png)
 
 6. Click *installation wizard*.
-![image]()
+
+![install5](https://cloud.githubusercontent.com/assets/2329372/26513446/542e2fee-4220-11e7-8d12-9cd93065f2c2.png)
 
 7. Choose a **package**.
-![image]()
+
+![choose6](https://cloud.githubusercontent.com/assets/2329372/26513442/54191e9c-4220-11e7-8a84-65ce8b6854fb.png)
 
 8. Click **Upload a package**.
-![image]()
+
+![upload7](https://cloud.githubusercontent.com/assets/2329372/26513439/540501a0-4220-11e7-9b1f-8242ebb9747f.png)
 
 9. Choose a file and locate **SSBOS Referrer URL Parameter-v0.3.zip**.
-![image]()
+
+![choosefile8](https://cloud.githubusercontent.com/assets/2329372/26513441/5408e34c-4220-11e7-85ed-9f4bf56396e2.png)
 
 10. Click **Next**.
-![image]()
+
+![next9](https://cloud.githubusercontent.com/assets/2329372/26513438/540498be-4220-11e7-8797-85ede4267079.png)
 
 11. Check overwrite file and click **Upload** to upload the selected package.
-![image]()
+
+![upload10](https://cloud.githubusercontent.com/assets/2329372/26513437/5404535e-4220-11e7-9ff3-28f3b47285bf.png)
 
 12. Now, you can choose a package. Select newly added package sitecore sbos module link manager and click **Open**.
-![image]()
+
+![open11](https://cloud.githubusercontent.com/assets/2329372/26513440/5405ce50-4220-11e7-8bfb-0aebb7a04ce7.png)
 
 13. Click **Next**.
-![image]()
+
+![installnext12](https://cloud.githubusercontent.com/assets/2329372/26513436/53dc75a0-4220-11e7-9641-759ca5c9c60d.png)
 
 14. Now you can install the package click **Install**.
-![image]()
+
+![install13](https://cloud.githubusercontent.com/assets/2329372/26513435/53dc5b74-4220-11e7-8f51-3b3781921544.png)
 
 15. Overwrite the files click **Yes to All**.
-![image]()
+
+![overwrite14](https://cloud.githubusercontent.com/assets/2329372/26513433/53dba5c6-4220-11e7-80a8-dd6138cdf073.png)
 
 16. Select **Overwrite** option and click **Apply to all**.
-![image]()
+
+![apply15](https://cloud.githubusercontent.com/assets/2329372/26513434/53dc2dfc-4220-11e7-98bd-1dcdc5881308.png)
 
 17. You can now check **Restart the Sitecore Client** and click **Close**.
-![image]()
+
+![close16](https://cloud.githubusercontent.com/assets/2329372/26513432/53db9f5e-4220-11e7-8fdb-fb8f77609d97.png)
 
 18. End
-
-## Supports
-+ For support please email the author or [create an issue](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters/issues/new).
-+ Tested on Sitecore CMS 8.2 or later
 
 THIS MODULE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT SUPPORT, WARRANTIES OR CONDITIONS OF ANY KIND.
