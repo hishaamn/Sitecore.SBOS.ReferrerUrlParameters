@@ -1,0 +1,46 @@
+﻿---
+ID: "a5c69cc5-9940-4340-bedc-44c254c68ec6"
+Parent: "97863a89-6be2-465a-9c30-8a9a2a30ea68"
+Template: "d9bdf22f-6e17-47f3-ab64-49c717ba92da"
+Path: /sitecore/system/Settings/Analytics/Rules/Session Begin/Rules/Campaign Trigger
+DB: master
+SharedFields:
+- ID: "908ef45d-4940-4b6a-857d-3739ba4acf8f"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{F18F0AED-2EBA-4788-BCAB-ADD66029B3A6}">
+        <conditions>
+          <condition
+            id="{EBD025E7-E445-47DE-A415-9C9EC4FCB4A7}"
+            uid="610F4076D03E47C09CE04919AC48EAFA"
+            operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+            UtmSource="ramon@email.com"
+            CampaignId="{357C2F66-69AF-454F-ACC1-17A07E1EA2ED}"
+            UtmMedium="email" />
+        </conditions>
+        <actions>
+          <action
+            id="{46E71648-2DAF-4C11-A20C-4E3765DEEFEC}"
+            uid="1CABA6396511447FA740053B8A601AA5"
+            CampaignId="{357C2F66-69AF-454F-ACC1-17A07E1EA2ED}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170621T231013Z
+    - ID: "45cf9130-802a-41be-b3eb-c02f657dcc2e"
+      Hint: Name
+      Value: Campaign Trigger
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

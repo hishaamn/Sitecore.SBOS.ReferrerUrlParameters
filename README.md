@@ -32,8 +32,8 @@ This module is currently under development and in beta version. Please check bac
 
 ## Installation Instructions
 
-1. [Download Sitecore Package](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters/blob/master/SBOS%20Referrer%20URL%20Parameter-v0.3.zip)
-2. Follow this step-by-step instructions for [installing the package](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters/blob/master/PACKAGE-README(v0.3).md).
+1. [Download Sitecore Package v1.0](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters)
+2. Install using Sitecore's Package Installer
 
 ## Supports
 + For support please email the author or [create an issue](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters/issues/new).

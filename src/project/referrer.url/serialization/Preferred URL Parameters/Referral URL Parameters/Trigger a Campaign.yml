@@ -1,0 +1,28 @@
+﻿---
+ID: "46e71648-2daf-4c11-a20c-4e3765deefec"
+Parent: "2470ff15-e904-4203-97ec-ca558f3d79a7"
+Template: "f90052a5-b4e6-4e6d-9812-1e1b88a6fcea"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Referral URL Parameters/Trigger a Campaign
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 575
+- ID: "ff55d5a7-6d4b-4cd1-83e0-bac268073f66"
+  Hint: Type
+  Value: Sitecore.Analytics.Rules.Actions.TriggerCampaign,Sitecore.Analytics.SBOS
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170627T011922Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "eeb36a3b-40d9-4af5-862a-de257b84dca3"
+      Hint: Text
+      Value: "trigger [CampaignId,Tree,root=/sitecore/system/Marketing Control Panel/Campaigns,specified campaign]"
