@@ -32,57 +32,41 @@ This module is currently under development and in beta version. Please check bac
 2. Install using Sitecore's Package Installer
 
 ## Getting Started
-Below are the steps on how to install and this module.
+Below are the steps on how to install and this package.
 
 1. Login in Sitecore Client.
-![image]()
+
+![image](https://cloud.githubusercontent.com/assets/2329372/26075898/d4ffd252-396b-11e7-8b89-5388328049e4.png)
 
 2. On Sitecore Experience Platform click **Desktop**.
-![image]()
+
+![image](https://user-images.githubusercontent.com/2329372/29325656-16fda4fc-821b-11e7-8270-b68963439398.png)
 
 3. On desktop click **Sitecore logo**.
-![image]()
 
-5. On sitecore logo click **developer tools**.
-![image]()
+![image](https://user-images.githubusercontent.com/2329372/29327055-62eb498c-8220-11e7-94a8-4145fad4b54f.png)
 
-6. Click *installation wizard*.
-![image]()
+4. On sitecore logo click **developer tools**.
+5. Click *installation wizard*.
 
-7. Choose a **package**.
-![image]()
+![image](https://user-images.githubusercontent.com/2329372/29327076-7a8a3bca-8220-11e7-8d0a-939c4729ddc0.png)
 
-8. Click **Upload a package**.
-![image]()
+6. To Upload File: Click upload and select the package you want to upload. Then **Choose** a package and Choose a newly added Sitecore SBOS Referrer URL Parameter v0.3.zip and Click **Next**.
 
-9. Choose a file and locate **SSBOS Referrer URL Parameter-v0.3.zip**.
-![image]()
+![image](https://user-images.githubusercontent.com/2329372/29378470-c554ef70-82f1-11e7-9ff3-9aa7c4caa313.png)
 
-10. Click **Next**.
-![image]()
+7. Now we can **install** the package.
 
-11. Check overwrite file and click **Upload** to upload the selected package.
-![image]()
+![image](https://user-images.githubusercontent.com/2329372/29378564-1a87faa0-82f2-11e7-9d1b-519f31e6e192.png)
 
-12. Now, you can choose a package. Select newly added package sitecore sbos module link manager and click **Open**.
-![image]()
+8. Overwrite the files click **Yes to All**.
 
-13. Click **Next**.
-![image]()
+![image](https://user-images.githubusercontent.com/2329372/29378623-5e0768c4-82f2-11e7-842e-ef218b556cf6.png)
 
-14. Now you can install the package click **Install**.
-![image]()
+9. You can now check **Restart the Sitecore Client** and click **Close**.
 
-15. Overwrite the files click **Yes to All**.
-![image]()
+![image](https://user-images.githubusercontent.com/2329372/29327349-6bd021b6-8221-11e7-97b0-9b1a234bf83e.png)
 
-16. Select **Overwrite** option and click **Apply to all**.
-![image]()
-
-17. You can now check **Restart the Sitecore Client** and click **Close**.
-![image]()
-
-18. End
 
 ## Supports
 + For support please email the author or [create an issue](https://github.com/raseniero/Sitecore.SBOS.ReferrerUrlParameters/issues/new).
